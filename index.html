@@ -317,6 +317,9 @@
     color:var(--muted);
     font-size:.93rem;
   }
+  .week-topics{margin:14px 0 18px; padding-left:20px; color:var(--muted); font-size:.93rem}
+  .week-topics li{margin-bottom:10px}
+  .week-topics strong{color:var(--text)}
   .project-link{margin-top:16px}
   .project-link:focus-visible{
     outline:2px solid var(--accent);
@@ -464,7 +467,18 @@
     </div>
 
     <div class="weeks">
-      <div class="week"><div><div class="week-number">Week 01</div><h3>LLM Foundations</h3></div><span class="placeholder">Add link →</span></div>
+      <div class="week project">
+        <div class="week-number">Week 01</div>
+        <h3>LLM Foundations</h3>
+        <ul class="week-topics">
+          <li><strong>LLM Fundamentals &amp; Prompting:</strong> Gain a foundation in how large language models are trained, explore popular providers, and master key techniques for writing effective prompts.</li>
+          <li><strong>Document Generation:</strong> Explore how to generate different file types, including DOCX, PPTX, and HTML.</li>
+          <li><strong>Web Development:</strong> Gain hands-on experience building simple, functional websites for research.</li>
+          <li><strong>Authenticity &amp; Quality Control:</strong> Learn to maintain control of your writing using AI detectors and discover strategies to avoid generating low-quality &quot;AI slop.&quot;</li>
+          <li><strong>Presentation Tools:</strong> Get an introduction to AI-powered tools designed to help create presentations.</li>
+        </ul>
+        <span class="placeholder">Add link →</span>
+      </div>
       <div class="week project">
         <div class="week-number">Week 02</div>
         <h3>Workshop 2: Automated Data Analysis</h3>
